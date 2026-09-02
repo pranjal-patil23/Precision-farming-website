@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Future of Farming | Precision Agriculture</title>
+  <meta name="description" content="Precision Farming Using Data Analytics and IoT Platforms">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <div class="brand">🌱 Precision Farming</div>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#system">How It Works</a>
+        <a href="#applications">Applications</a>
+        <a href="#sdgs">Sustainability</a>
+        <a href="#challenges">Future</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <span class="eyebrow">IoT • DATA ANALYTICS • SUSTAINABILITY</span>
+      <h1>The Future of Farming:<br><span>IoT, Data & Intelligent Agriculture</span></h1>
+      <p>Exploring how connected sensors and data intelligence are reshaping modern agriculture.</p>
+      <a class="cta" href="#system">Explore the System ↓</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <div class="section-label">01 — INTRODUCTION</div>
+      <h2>From guesswork to <span>data-driven decisions</span></h2>
+      <p>
+        Agriculture feeds the world, yet it faces mounting pressure from a growing population,
+        shrinking arable land, and an increasingly unpredictable climate. Precision farming
+        manages crops and resources at a hyper-local level using real-time data.
+      </p>
+      <p>
+        By combining the Internet of Things (IoT) with data analytics, farmers can continuously
+        monitor soil, water, and crop health and act on information instantly rather than relying
+        on guesswork or fixed schedules.
+      </p>
+    </section>
+
+    <section class="system section" id="system">
+      <div class="section-label">02 — HOW THE SYSTEM WORKS</div>
+      <h2>The IoT stack in the <span>field</span></h2>
+      <div class="layers">
+        <article class="layer">
+          <div class="layer-icon">📡</div>
+          <div>
+            <span class="tag">PERCEPTION LAYER</span>
+            <h3>Sensing</h3>
+            <p>Soil moisture, temperature, humidity and pH sensors, weather stations, and drone-mounted multispectral cameras continuously collect field data.</p>
+          </div>
+        </article>
+        <article class="layer">
+          <div class="layer-icon">📶</div>
+          <div>
+            <span class="tag">NETWORK LAYER</span>
+            <h3>Connectivity</h3>
+            <p>LoRaWAN, Zigbee and NB-IoT transmit data from scattered field nodes to a central gateway, including across large or remote farms.</p>
+          </div>
+        </article>
+        <article class="layer">
+          <div class="layer-icon">🧠</div>
+          <div>
+            <span class="tag">APPLICATION / ANALYTICS</span>
+            <h3>Intelligence</h3>
+            <p>Cloud platforms ingest sensor streams and apply trend analysis, predictive modeling and machine learning to turn numbers into decisions.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="flow">
+        <span>SENSORS</span><b>→</b><span>CONNECTIVITY</span><b>→</b><span>CLOUD</span><b>→</b><span>ANALYTICS</span><b>→</b><span>ACTION</span>
+      </div>
+    </section>
+
+    <section class="dashboard section">
+      <div class="section-label">LIVE CONCEPT</div>
+      <div class="dashboard-grid">
+        <div>
+          <h2>Farm Operations <span>Dashboard</span></h2>
+          <p>A visual representation of the kind of real-time monitoring enabled by precision farming.</p>
+        </div>
+        <div class="metric">
+          <div class="metric-top"><span>Soil Moisture</span><strong id="moisture">62%</strong></div>
+          <div class="bar"><i id="moistureBar"></i></div>
+          <small>Field Zone A • Sensor 04</small>
+        </div>
+        <div class="metric">
+          <div class="metric-top"><span>Temperature</span><strong>28°C</strong></div>
+          <div class="bar"><i style="width:58%"></i></div>
+          <small>Field Zone A • Sensor 02</small>
+        </div>
+        <div class="metric">
+          <div class="metric-top"><span>Humidity</span><strong>71%</strong></div>
+          <div class="bar"><i style="width:71%"></i></div>
+          <small>Field Zone A • Sensor 03</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="applications section" id="applications">
+      <div class="section-label">03 — REAL-WORLD APPLICATIONS</div>
+      <h2>Technology already working on <span>farms</span></h2>
+      <div class="cards">
+        <article class="card"><span>01</span><h3>Microsoft FarmBeats</h3><p>Combines low-cost sensors, drones and vision/ML models to provide actionable insights on farmland.</p></article>
+        <article class="card"><span>02</span><h3>John Deere Operations Center</h3><p>Aggregates data from connected tractors and implements to guide variable-rate seeding and fertilization.</p></article>
+        <article class="card"><span>03</span><h3>IBM Agriculture Analytics</h3><p>Uses weather and satellite data to forecast yield and irrigation needs.</p></article>
+      </div>
+    </section>
+
+    <section class="sdgs section" id="sdgs">
+      <div class="section-label">04 — SUSTAINABLE DEVELOPMENT</div>
+      <h2>Precision farming & the <span>SDGs</span></h2>
+      <div class="sdg-grid">
+        <div class="sdg"><b>2</b><h3>ZERO HUNGER</h3><p>Improves agricultural productivity and supports food security.</p></div>
+        <div class="sdg"><b>12</b><h3>RESPONSIBLE CONSUMPTION</h3><p>Applies water, fertilizer and pesticides where and when needed.</p></div>
+        <div class="sdg"><b>13</b><h3>CLIMATE ACTION</h3><p>Reduces waste and environmental runoff while supporting efficient resource use.</p></div>
+      </div>
+    </section>
+
+    <section class="challenges section" id="challenges">
+      <div class="section-label">05 — CHALLENGES & FUTURE SCOPE</div>
+      <div class="two-col">
+        <div>
+          <h2>What stands in the <span>way?</span></h2>
+          <ul>
+            <li>High upfront sensor and connectivity costs.</li>
+            <li>Limited rural network infrastructure.</li>
+            <li>Digital literacy and adoption gaps.</li>
+            <li>Data privacy concerns.</li>
+            <li>Bias from datasets representing limited geographies.</li>
+          </ul>
+        </div>
+        <div class="future-box">
+          <h3>From “smart” to “autonomous”</h3>
+          <p>The next stage could combine IoT with AI-driven predictive analytics, satellite imagery such as Sentinel-2 data, and blockchain for supply-chain traceability.</p>
+          <p class="quote">“The biggest unlock isn't more sensors — it's making these platforms affordable and usable for small and marginal farmers.”</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="conclusion section">
+      <div class="section-label">06 — CONCLUSION</div>
+      <h2>Technology serving a <span>societal need</span></h2>
+      <p>
+        Precision farming powered by IoT and data analytics connects sensor networks, cloud analytics,
+        and real-world decision-making into a single loop that makes farming more efficient,
+        sustainable, and resilient — provided the benefits are extended equitably to farmers of every scale.
+      </p>
+    </section>
+
+    <section class="references section">
+      <div class="section-label">REFERENCES</div>
+      <ol>
+        <li>Azlan, N. et al. (2025). <i>Data-Driven Agriculture: Unveiling the Power of Internet of Things and Data Analytics for Transformative Farming Practices.</i> Journal of Sensors, Wiley Online Library.</li>
+        <li><i>Integration of smart sensors and IoT in precision agriculture: trends, challenges and future prospectives.</i> PMC, National Library of Medicine.</li>
+        <li><i>Integrating sustainable development and business innovation: Analyzing the role of precision agriculture in promoting environmental stewardship and economic viability.</i> ScienceDirect.</li>
+        <li>Microsoft FarmBeats — AI, Edge & IoT for Agriculture.</li>
+        <li>John Deere Operations Center.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <strong>🌱 Precision Farming</strong>
+    <p>IoT • Data Analytics • Intelligent Agriculture</p>
+    <small>Originally published at precision-farming-iot.blogspot.com</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
